@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wisdom & Transport</title>
+</head>
+<body>
+<h1>struct with slices of Structs</h1>
+<ul>
+    {{range .Sages}}
+    <li>{{.Name}} - {{.Motto}}</li>
+    {{end}}
+</ul>
+
+<ul>
+    {{range .Cars}}
+    <li>{{.Brand}} - {{.Model}} - {{.Rating}}</li>
+    {{end}}
+</ul>
+
+</body>
+</html>
